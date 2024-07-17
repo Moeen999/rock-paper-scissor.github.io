@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #326ecf;
+    color: #fff; 
+    height: 5rem;
+    line-height: 5rem;
+    display: inline ;
+    padding: 1rem;
+    border-radius: 50px;
+}
+h1:hover{
+    transition: 2s ease;
+    background-color: rgba(11, 34, 54, 1);
+}
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#rock:hover{
+    background-color: rgb(219, 94, 115);
+}
+#paper:hover{
+    background-color:rgb(130, 68, 130);
+}
+#scissors:hover{
+    background-color: rgb(58, 159, 193);
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#userscore,#compscore{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    background-color:  #326ecf;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+#msg:hover{
+    transition: 2s ease;
+    background-color: rgb(12, 25, 36);
+}
